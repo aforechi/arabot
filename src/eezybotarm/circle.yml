@@ -1,0 +1,13 @@
+---
+dependencies:
+  pre:
+    - ./circleci-install-deps.sh
+
+  cache_directories:
+    - "pkgcache"
+
+test:
+  pre:
+    # build arduino code
+    - cd arduino && make
+

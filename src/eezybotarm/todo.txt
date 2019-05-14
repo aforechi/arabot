@@ -1,0 +1,7 @@
+3d coordinate system
+flip 2d coordinate system so that things happen in +x
+cleanup servo value limiting
+add deadzones to 3d mouse
+steadier movement?
+show motion paths in arm_gui.py
+limit range of motion for each servo
